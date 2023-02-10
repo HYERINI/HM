@@ -12,6 +12,8 @@
 
 #include <iostream>
 
+#include <client.h>
+
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 void mouse_callback(GLFWwindow* window, double xpos, double ypos);
 void scroll_callback(GLFWwindow* window, double xoffset, double yoffset);
@@ -35,6 +37,7 @@ float lastFrame = 0.0f;
 
 int main()
 {
+    OnOK();
     // glfw: initialize and configure
     // ------------------------------
     glfwInit();
