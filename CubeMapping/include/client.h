@@ -5,6 +5,6 @@
 
 using namespace std;
 
-void OnOK();
+int example();
 CString ErrorOut(DWORD dError);
 int Send_Internet(CString sURL, CString sPostMsg, CString& sRecv);
